@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (no token)",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "Flutter (with Coinranking API key)",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": ["-v", "--dart-define=COINRANKING_API_KEY=xxx"]
+      // coinranking_key เอามาจากการสร้างใน coinranking.com
+    }
+  ]
+}
